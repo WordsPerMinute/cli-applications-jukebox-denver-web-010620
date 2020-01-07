@@ -59,8 +59,6 @@ def run(songsArray)
 puts "Please enter a command:"
 userInput = gets.strip
   while userInput != "exit"
-    puts "Please enter a command:"
-    userInput = gets.strip
     if userInput == "help"
       help
     elsif userInput == "list"

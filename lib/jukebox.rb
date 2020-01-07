@@ -56,7 +56,16 @@ def exit_jukebox
 end
 
 def run 
-  puts "Please enter a command:"
-  userInput = gets.strip
-  
+  while userInput != "exit"
+    puts "Please enter a command:"
+    userInput = gets.strip
+  end
 end
+
+# def help
+#   puts "I accept the following commands:"
+#   puts "- help : displays this help message"
+#   puts "- list : displays a list of songs you can play"
+#   puts "- play : lets you choose a song to play"
+#   puts "- exit : exits this program"
+# end

@@ -46,8 +46,8 @@ def play(songsArray)
   
 end
 
-def list 
-  
+def list(songsArray)
+  songsArray.each |indivSong| puts "indivSong 
 end
 
 

@@ -22,23 +22,23 @@ def play(songsArray)
   puts "Please enter a song name or number:"
   songChoice = gets.strip
   
-  if songChoice == "1" or songChoice == "1901"
+  if songChoice == "1" or songChoice == songsArray[0]
     puts "Playing #{songsArray[0]}"
-  elsif songChoice == "2" or songChoice == "Wait Up"
+  elsif songChoice == "2" or songChoice == songsArray[1]
     puts "Playing #{songsArray[1]}"
-  elsif songChoice == "3" or songChoice == "Too Much"
+  elsif songChoice == "3" or songChoice == songsArray[2]
     puts "Playing #{songsArray[2]}"
-  elsif songChoice == "4" or songChoice == "Young Blood"
+  elsif songChoice == "4" or songChoice == songsArray[3]
     puts "Playing #{songsArray[3]}"
-  elsif songChoice == "5" or songChoice == "Tiga"
+  elsif songChoice == "5" or songChoice == songsArray[4]
     puts "Playing #{songsArray[4]}"
-  elsif songChoice == "6" or songChoice == "Abducted"
+  elsif songChoice == "6" or songChoice == songsArray[5]
     puts "Playing #{songsArray[5]}"
-  elsif songChoice == "7" or songChoice == "Consolation Prizes"
+  elsif songChoice == "7" or songChoice == songsArray[6]
     puts "Playing #{songsArray[6]}"
-  elsif songChoice == "8" or songChoice == "Cats in the Cradle"
+  elsif songChoice == "8" or songChoice == songsArray[7]
     puts "Playing #{songsArray[7]}"
-  elsif songChoice == "9" or songChoice == "Keep It Loose, Keep It Tight"
+  elsif songChoice == "9" or songChoice == songsArray[8]
     puts "Playing #{songsArray[8]}"
   else
     puts "Invalid input, please try again"

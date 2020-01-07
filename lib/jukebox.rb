@@ -59,6 +59,9 @@ def run
   while userInput != "exit"
     puts "Please enter a command:"
     userInput = gets.strip
+    if userInput == "help"
+      
+    elsif
   end
 end
 

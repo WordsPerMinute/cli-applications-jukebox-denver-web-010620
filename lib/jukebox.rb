@@ -62,9 +62,9 @@ def run
     if userInput == "help"
       help
     elsif userInput == "list"
-          
+      list(songsArray)
     elsif userInput == "play"
-    
+      play(songsArray)
     else 
       puts "Please enter a *valid* command next time"
     end

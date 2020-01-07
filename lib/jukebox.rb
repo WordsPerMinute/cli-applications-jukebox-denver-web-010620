@@ -61,7 +61,11 @@ def run
     userInput = gets.strip
     if userInput == "help"
       
-    elsif
+    elsif userInput == "list"
+          
+    elsif userInput == "play"
+          
+    elsif userInput == "help"
   end
 end
 

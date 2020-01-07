@@ -15,5 +15,5 @@ songs = [
 ]
 
 
-play(songs)
-#run(songs)
+
+run(songs)

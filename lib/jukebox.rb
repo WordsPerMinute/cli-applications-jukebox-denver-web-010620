@@ -64,7 +64,6 @@ def run
     elsif userInput == "list"
           
     else userInput == "play"
-          
   end
 end
 

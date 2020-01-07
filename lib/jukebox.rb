@@ -63,9 +63,8 @@ def run
       
     elsif userInput == "list"
           
-    elsif userInput == "play"
+    else userInput == "play"
           
-    elsif userInput == "help"
   end
 end
 

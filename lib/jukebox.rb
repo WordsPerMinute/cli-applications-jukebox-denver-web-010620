@@ -55,7 +55,7 @@ def exit_jukebox
   puts "Goodbye"
 end
 
-def run 
+def run(songsArray)
   while userInput != "exit"
     puts "Please enter a command:"
     userInput = gets.strip

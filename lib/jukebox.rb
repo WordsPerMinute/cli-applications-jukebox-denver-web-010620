@@ -43,6 +43,7 @@ def play(songsArray)
   else
     puts "Invalid input, please try again"
   end
+  
 end
 
 def list 

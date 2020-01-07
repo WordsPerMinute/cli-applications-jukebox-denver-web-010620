@@ -14,11 +14,11 @@ def play(songsArray)
   puts "Please enter a song name or number:"
   songChoice = gets.strip
   
-  if songChoice == 1 or songChoice == "1901"
+  if songChoice == "1" or songChoice == "1901"
     puts "Playing #{songsArray[0]}"
-  elsif songChoice == 2 or songChoice == "Wait Up"
+  elsif songChoice == "2" or songChoice == "Wait Up"
     puts "Playing #{songsArray[1]}"
-  elsif songChoice == 3 or songChoice == "Too Much"
+  elsif songChoice == "3" or songChoice == "Too Much"
     puts "Playing #{songsArray[2]}"
   elsif songChoice == 4 or songChoice == "Young Blood"
     puts "Playing #{songsArray[3]}"

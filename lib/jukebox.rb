@@ -71,6 +71,7 @@ userInput = gets.strip
       puts "Please enter a *valid* command next time"
     end
   end
+  exit_jukebox
 end
 
 # def help

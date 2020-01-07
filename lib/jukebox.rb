@@ -47,7 +47,7 @@ def play(songsArray)
 end
 
 def list(songsArray)
-  songsArray.each_with_index |song, index| puts "#{index + 1} #{indivSong}"
+  songsArray.each_with_index |song, index| puts "#{index + 1} #{song}"
 end
 
 

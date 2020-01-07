@@ -60,10 +60,14 @@ def run
     puts "Please enter a command:"
     userInput = gets.strip
     if userInput == "help"
-      
+      help
     elsif userInput == "list"
           
-    else userInput == "play"
+    elsif userInput == "play"
+    
+    else 
+      puts "Please enter a *valid* command next time"
+    end
   end
 end
 
